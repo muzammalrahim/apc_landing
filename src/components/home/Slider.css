@@ -1,0 +1,38 @@
+.slider{
+    background-image: url('../../assets/slide-bg.png');
+    width: 100%;
+    padding: 100px;
+}
+.slider__text{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 145%;
+/* or 58px */
+
+text-align: justify;
+
+color: #191919;
+
+}
+.slider__author{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 145%;
+/* identical to box height, or 29px */
+
+text-align: left;
+color: #191919;
+}
+.slider__company{
+    text-align: left;
+}
+.slider__design{
+    text-align: right;
+}
+.slider__companyLogo{
+ 
+}

@@ -1,0 +1,53 @@
+.join{
+    width: 100%;
+
+    background-color: white;
+    padding-bottom: 100px;
+    
+    
+
+}
+.join__imageSection{
+    text-align: left;
+    display: flex;
+   
+ 
+}
+.join__image{
+   margin-top: -150px;
+   width: 250px;
+}
+.join__heading{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+line-height: 135%;
+text-align: center;
+/* or 68px */
+
+
+color: #191919;
+/* margin-left: auto; */
+margin-left: 10%;
+margin-right: auto;
+margin-top: 100px;
+margin-bottom: 50px
+
+}
+.join__btn{
+    background: #FF673E;
+border-radius: 100px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 145%;
+/* or 26px */
+
+padding: 7px 25px;
+
+color: #FFFFFF;
+border: none;
+cursor:pointer
+}

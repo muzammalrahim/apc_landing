@@ -1,0 +1,55 @@
+.start{
+    background-image: url('../../assets/getStarted.png');
+    /* background-color: black; */
+       width: 100%;
+   /* height: 1000px; */
+   padding: 50px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+    margin-top: -85px;
+   z-index: 100; 
+}
+.start__heading{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 44px;
+line-height: 135%;
+
+
+color: #FFFFFF;
+text-align: left;
+margin-top: 40px;
+}
+.start__content{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 180%;
+/* or 36px */
+
+
+color: #FFFFFF;
+text-align: left;
+margin-top: 50px;
+}
+.start__left{
+    margin-top: 150px;
+    /* margin-left: 50px; */
+}
+.start__line{
+    margin-top: -200px;
+    width: 100%;
+}
+.line__image{
+    width: 50%;
+  
+}
+.start__image{
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    
+}

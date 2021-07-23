@@ -1,0 +1,34 @@
+.teamManagement{
+    background-image: url('../../assets/team-management-bg.png');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.teamManagement__heading{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+line-height: 135%;
+/* identical to box height, or 68px */
+
+
+
+color: #191919;
+}
+.teamManagement__text{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 170%;
+/* or 37px */
+
+
+
+color: #191919;
+
+}

@@ -1,0 +1,51 @@
+.portfolioBanner{
+    margin-top: 200px;
+    height: 500px;
+}
+.portfolioBanner__heading{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 48.5px;
+line-height: 150%;
+/* or 108px */
+
+text-align: left;
+
+
+color: #191919;
+
+}
+/* .portfolioBanner__heading span{
+    background-image: url("../../assets/portfolio-banner-line.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+} */
+.portfolioBanner__imageSection{
+    text-align: right;
+    margin-top: -450px;
+}
+.portfolioBanner__image{
+    /* text-align: left;
+    z-index: -1;
+    margin-top: 50px; */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: -1;
+}
+.portfolioBanner__text{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 150%;
+/* or 52px */
+margin-bottom: 40px;
+/* margin-top: -100px; */
+
+text-align: left;
+
+color: #191919;
+
+}

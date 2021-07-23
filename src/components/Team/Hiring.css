@@ -1,0 +1,86 @@
+.hiring__heading{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+line-height: 135%;
+/* identical to box height, or 68px */
+
+
+color: #191919;
+
+}
+/* .hiring__cardLeft{
+    background: #191919;
+border-radius: 2px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+padding: 15px;
+width: 50%;
+margin: 10px auto;
+} */
+.hiring__cardText{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 145%;
+/* or 29px */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+background-color: #191919;
+width: 50%;
+margin: 0 auto;
+height: 60px;
+
+
+}
+.hiring__cardRight1{
+    width: 10%;
+    background-color: #7CEBDB;
+    border-radius: 2px;
+    padding: 19.2px 15px;
+    position: relative;
+    left:243px;
+    bottom: 42px;
+    
+
+    
+}
+.hiring__cardRight2{
+    width: 10%;
+    background-color: #FFB200;
+    border-radius: 2px;
+    padding: 19.2px 15px;
+    position: relative;
+    left:243px;
+    bottom: 42px;
+
+    
+}
+.hiring__cardRight3{
+    width: 10%;
+    background-color: #5F6AD8;
+    border-radius: 2px;
+    padding: 19.2px 15px;
+    position: relative;
+    left:243px;
+    bottom: 42px;
+
+    
+}
+.hiring__cardTextImage{
+    width: 140px;
+}
+/* .hiring__card{
+    display: flex;
+    width: 60%;
+} */
+/* .card{
+    display: flex;
+    justify-content: center;
+} */

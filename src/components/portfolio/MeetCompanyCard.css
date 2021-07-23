@@ -1,0 +1,29 @@
+.meetCompanyCard{
+    background: #191919;
+border: 1px solid #7CEBDB;
+box-sizing: border-box;
+box-shadow: 0px -3px 0px #7CEBDB;
+width: 100%;
+padding-top: 50px;
+height: 250px;
+margin: 10px ;
+}
+.meetCompanyCard__image{
+    width: 200px;
+    height: 50px;
+    object-fit: contain;
+}
+.meetCompanyCard__text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 170%;
+    /* or 31px */
+    
+    
+    
+    color: #FFFFFF;
+    
+}
+

@@ -1,0 +1,35 @@
+.homeBanner{
+    margin-top: 200px;
+}
+.homeBanner__heading{
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 72px;
+line-height: 150%;
+/* or 108px */
+
+text-align: left;
+
+
+color: #191919;
+}
+
+.homeBanner__heading span{
+    background-image: url("../../assets/below-line.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.homeBanner__image{
+    /* background-image: url('../../assets/footer-right.png'); */
+    text-align: left;
+    z-index: -1;
+    margin-top: 50px;
+
+}
+.homeBanner__image img{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-bottom: 9px;
+
+}

@@ -1,0 +1,41 @@
+.vision{
+    padding: 50px;
+}
+.vision__heading{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+line-height: 135%;
+/* identical to box height, or 68px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #191919;
+}
+.vision__content{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 170%;
+/* or 37px */
+
+display: flex;
+align-items: center;
+
+color: #191919;
+text-align: justify;
+}
+
+.vision__right{
+    margin-top: -20px;
+    
+}
+.vision__image{
+    width: 80%;
+    height: 90%;
+    margin-bottom: 50px;
+}

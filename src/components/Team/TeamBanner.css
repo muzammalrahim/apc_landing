@@ -1,0 +1,28 @@
+.teamBanner{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.teamBanner__heading{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 65px;
+line-height: 150%;
+text-align: left;
+/* or 108px */
+
+
+
+color: #191919;
+}
+/* .teamBanner__heading span{
+    background-image: url("../../assets/team-banner-line.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+} */
+.teamBanner__image{
+    text-align: left;
+}
+.teamBanner__image img{
+    
+}

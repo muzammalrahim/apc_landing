@@ -74,17 +74,17 @@ function Header() {
               </Link>
             </li>
             <li className="nav-item mx-4">
-              <Link
+              <a
                 className={
                   actives === "jobs"
                     ? "nav-link header__link header__borderBottom active"
                     : "nav-link header__link header__borderBottom"
                 }
-                href="#"
+                href="https://apc.homerun.co/"
                 onClick={() => setActive("jobs")}
               >
                 Jobs
-              </Link>
+              </a>
             </li>
             <li className="nav-item ml-4">
               <Link to="/contact" className="nav-link header__link" href="#">

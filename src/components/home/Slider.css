@@ -1,7 +1,10 @@
 .slider{
     background-image: url('../../assets/slide-bg.png');
-    width: 100%;
-    padding: 100px;
+  
+    padding: 200px;
+    margin-top: -230px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .slider__text{
     font-family: Poppins;
@@ -33,6 +36,7 @@ color: #191919;
 .slider__design{
     text-align: right;
 }
-.slider__companyLogo{
- 
+.slider__content{
+    margin-top: 150px;
+    height: 350px;
 }

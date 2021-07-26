@@ -29,6 +29,7 @@
         font-weight: 300;
         font-size: 50px;
         line-height: 150%;
+        margin-right: 100px;
         /* identical to box height, or 75px */
 
 
@@ -39,22 +40,25 @@
     .contactRight__bottomLine{
         /* margin-left: 50px; */
         margin-top: -50px;
+        margin-right: 100px;
     }
     .contactRight__btn{
-        margin-right: 130px;
+        margin-right: 220px;
         margin-top: 20px;
+
     }
     .contactRight__smallHeading{
         font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 145%;
-/* or 26px */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 145%;
+        /* or 26px */
 
-margin-top:50px;
+        margin-top:50px;
+        margin-right: 100px;
 
-color: rgba(255, 255, 255, 0.8);
+        color: rgba(255, 255, 255, 0.8);
     }
     .contactRight__text{
         font-family: Open Sans;
@@ -65,18 +69,19 @@ color: rgba(255, 255, 255, 0.8);
         /* or 26px */
         
         text-align: justify;
-        margin-left: 144px;
+        margin-left: 180px;
         
         color: rgba(255, 255, 255, 0.8);
     }
     .contactRight__social{
-        margin-right: 250px;
+        margin-right: 340px;
     }
     .contactRight__bottomImage{
-       position: relative;
-       bottom: 350px;
-       left: 76px;
-       width:200px
+       
+       width:260px;
+       margin-left: 490px;
+
+   
     }
     .contactRight__borderBottom{
         border-bottom: 2px solid white;

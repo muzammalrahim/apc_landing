@@ -28,8 +28,10 @@ color: #191919;
 
 }
 .homeBanner__image img{
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    /* -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); */
     margin-bottom: 9px;
+    z-index: -10;
+    width: 600px;
 
 }

@@ -12,13 +12,12 @@ import design4 from "../../assets/slider-image4.png";
 import next from "../../assets/arrow-next.png";
 import prev from "../../assets/arrow-prev.png";
 import client from "../../client";
-import QouteModel from "./models/quote.model";
 
 function HomeSlider() {
   const [content, setContent] = useState(0);
   const [quotes, setQuotes] = useState([]);
   const [isFirstTime, setIsFirstTime] = useState(true);
-  var qouteModel = new QouteModel();
+  // var qouteModel = new QouteModel();
 
   const fetchData = async () => {
     if (isFirstTime) {
@@ -32,12 +31,6 @@ function HomeSlider() {
   useEffect(() => {
     fetchData();
   });
-
-  const renderQoutes = () => {
-    if (quotes && quotes.length > 0) {
-      quotes.map(function (qouteItem, index) {});
-    }
-  };
 
   const nextHandler = () => {
     if (content >= 0 && content < 2) {
@@ -75,20 +68,33 @@ function HomeSlider() {
 
   return (
     <div className="slider">
-      <div className="container">
-        <p className="slider__text">{detail}</p>
-        <p className="slider__author mt-3">{author}</p>
-        <div className="slider__company">
-          {/* <img src={icon} alt="" />
+      <div className="container slider__content">
+        <div className="slider__content">
+          <p className="slider__text">{detail}</p>
+          <p className="slider__author mt-3">{author}</p>
+          <div className="slider__company">
+            {/* <img src={icon} alt="" />
           <img src={company} alt="" /> */}
-          <img className="slider__companyLogo" src={image} alt="" />
-        </div>
-        <div className="slider__design">
-          <img src={design} alt="" />
+            <img className="slider__companyLogo" src={image} alt="" />
+          </div>
+          <div className="slider__design">
+            <img src={design} alt="" />
+          </div>
         </div>
         <div className="slider__arrows">
-          <img src={prev} alt="" className="mx-5" onClick={prevHandler} />
-          <img src={next} alt="" onClick={nextHandler} />
+          <img
+            style={{ cursor: "pointer" }}
+            src={prev}
+            alt=""
+            className="mx-5"
+            onClick={prevHandler}
+          />
+          <img
+            style={{ cursor: "pointer" }}
+            src={next}
+            alt=""
+            onClick={nextHandler}
+          />
         </div>
       </div>
     </div>

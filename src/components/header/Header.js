@@ -4,14 +4,14 @@ import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 
 function Header() {
-  const [active, setActive] = useState("about");
+  const [active, setActive] = useState("");
 
   return (
     <div className="header ">
       <nav className="navbar navbar-expand-lg navbar-light   container">
-        <a className="navbar-brand" href="#">
+        <Link to="/" className="navbar-brand" href="#">
           <img src={logo} alt="" />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -28,12 +28,12 @@ function Header() {
             <li className="nav-item  mx-4">
               <Link
                 to="/"
-                className="nav-link header__link header__borderBottom"
+                className="nav-link header__link header__borderBottom "
                 href="#"
-                style={{
-                  borderBottom: active === "about" && "2px solid black",
-                }}
                 onClick={() => setActive("about")}
+                style={{
+                  borderBottom: active === "about" ? "2px solid black" : "",
+                }}
               >
                 About
               </Link>
@@ -41,33 +41,41 @@ function Header() {
             <li className="nav-item mx-4">
               <Link
                 to="/portfolio"
-                className="nav-link header__link"
+                className="nav-link header__link header__borderBottom "
                 href="#"
-                style={{
-                  borderBottom: active === "portfolio" && "2px solid black",
-                }}
                 onClick={() => setActive("portfolio")}
+                style={{
+                  borderBottom: active === "portfolio" ? "2px solid black" : "",
+                }}
               >
                 Portfolio
               </Link>
             </li>
+
             <li className="nav-item mx-4">
               <Link
                 to="/team"
-                className="nav-link header__link"
+                className="nav-link header__link header__borderBottom "
                 href="#"
                 onClick={() => setActive("team")}
                 style={{
-                  borderBottom: active === "team" && "2px solid black",
+                  borderBottom: active === "team" ? "2px solid black" : "",
                 }}
               >
                 Team
               </Link>
             </li>
             <li className="nav-item mx-4">
-              <a className="nav-link header__link" href="#">
+              <Link
+                className="nav-link header__link header__borderBottom "
+                href="#"
+                onClick={() => setActive("jobs")}
+                style={{
+                  borderBottom: active === "jobs" ? "2px solid black" : "",
+                }}
+              >
                 Jobs
-              </a>
+              </Link>
             </li>
             <li className="nav-item ml-4">
               <Link to="/contact" className="nav-link header__link" href="#">

@@ -32,3 +32,12 @@ line-height: 170%;
 color: #191919;
 
 }
+.team__managementImageContainer{
+    text-align: left;
+    margin-left: -200px;
+    margin-bottom: -200px;
+
+}
+.team__managementImage{
+    width: 500px;
+}

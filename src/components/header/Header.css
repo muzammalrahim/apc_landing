@@ -19,4 +19,7 @@ nav .navbar-nav li a{
     .header__link:hover{
             border-bottom: 2px solid black;
     }
+    .active{
+        border-bottom: 2px solid black;
+    }
   

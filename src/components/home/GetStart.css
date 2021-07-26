@@ -26,7 +26,7 @@ margin-top: 40px;
     font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 25px;
 line-height: 180%;
 /* or 36px */
 
@@ -39,6 +39,71 @@ margin-top: 50px;
     margin-top: 150px;
     /* margin-left: 50px; */
 }
+@media screen and (max-width: 1120px) {
+    .start__left{
+        margin-top: 100px;
+    }
+  } 
+  @media screen and (max-width: 1030px) {
+    .start__left{
+        margin-top: 50px;
+    }
+  } 
+  @media screen and (max-width: 995px) {
+    .start__left{
+        margin-top: 30px;
+    }
+  } 
+  @media screen and (max-width: 960px) {
+    .start__left{
+        margin-top: 0px;
+    }
+  } 
+  @media screen and (max-width: 950px) {
+    .start__heading{
+        font-size: 30px;
+    }
+    .start__content{
+        font-size: 17px;
+    }
+    .start__right{
+       
+    }
+  } 
+  @media screen and (max-width: 940px) {
+   
+    .start__image{
+        height: 10%;
+    }
+  } 
+  @media screen and (max-width: 950px) {
+   
+    .start__image{
+      
+        margin-top: -50px;
+        
+    }
+  } 
+  @media screen and (max-width: 767px) {
+   
+    .start__image{
+
+        margin-top: 20px;
+       
+        
+    }
+  } 
+  @media screen and (max-width: 840px) {
+    .start__heading{
+        font-size: 25px;
+    }
+    .start__content{
+        font-size: 13px;
+    }
+    .start__right{
+       
+    }
+  } 
 .start__line{
     margin-top: -200px;
     width: 100%;

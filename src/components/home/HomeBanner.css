@@ -30,8 +30,226 @@ color: #191919;
 .homeBanner__image img{
     /* -webkit-transform: scaleX(-1);
     transform: scaleX(-1); */
-    margin-bottom: 9px;
+    margin-bottom: 10px;
     z-index: -10;
     width: 600px;
 
 }
+@media screen and (max-width: 1588px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 10px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }
+  @media screen and (max-width: 1540px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 14px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }
+  @media screen and (max-width: 1512px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 15px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }
+  @media screen and (max-width: 1480px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 18px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }
+  @media screen and (max-width: 1450px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 20px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }
+  @media screen and (max-width: 1420px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 22px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }
+  @media screen and (max-width: 1390px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 24px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }
+  @media screen and (max-width: 1360px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 26px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }
+  @media screen and (max-width: 1330px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 28px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 30px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }
+  @media screen and (max-width: 1270px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 32px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }
+  @media screen and (max-width: 1240px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 34px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }
+  @media screen and (max-width: 1210px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 36px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }  
+  @media screen and (max-width: 1180px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 38px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }  
+  @media screen and (max-width: 1150px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 40px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }  
+  @media screen and (max-width: 1120px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 42px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }  
+  @media screen and (max-width: 1090px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 44px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }  
+  @media screen and (max-width: 1060px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 46px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }  
+  @media screen and (max-width: 1030px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 48px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  }  
+
+  @media screen and (max-width: 767px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 13px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  } 
+  @media screen and (max-width: 748px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 15px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  } 
+  @media screen and (max-width: 730px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 17px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  } 
+  @media screen and (max-width: 690px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 19px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  } 
+  @media screen and (max-width: 640px) {
+    .homeBanner__image img{
+        
+        margin-bottom: 22px;
+        z-index: -10;
+        width: 600px;
+    
+    }
+  } 
+  

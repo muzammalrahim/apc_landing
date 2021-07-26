@@ -51,9 +51,9 @@ function ContactRight() {
         Parnassusweg 805, 1082 LZ Amsterdam, The <br /> Netherlands
       </p>
       <img src={social} alt="" className="contactRight__social" />
-      <div className="contactRight__bottomImageSection">
+      {/* <div className="contactRight__bottomImageSection">
         <img src={bottomLine} alt="" className="contactRight__bottomImage" />
-      </div>
+      </div> */}
       {/* <img src={bottomLine} alt="" className="contactRight__bottomImage" /> */}
     </div>
   );

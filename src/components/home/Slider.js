@@ -51,18 +51,27 @@ function HomeSlider() {
   if (quotes && quotes.length > 0) {
     if (content == 0) {
       image = design1;
-      detail = quotes[content].text;
-      author = quotes[content].quotee;
+      // detail = quotes[content].text;
+      // author = quotes[content].quotee;
+      detail =
+        "“I love working with ambitious colleagues with proven track records as I believe investing is about people.“";
+      author = "Niels Klok, Managing Partner";
     }
     if (content == 1) {
       image = design2;
-      detail = quotes[content].text;
-      author = quotes[content].quotee;
+      // detail = quotes[content].text;
+      // author = quotes[content].quotee;
+      detail =
+        "“The future is about connecting the right things instead of building it all yourself.”";
+      author = "Florea Parauan, CTO";
     }
     if (content == 2) {
       image = design3;
-      detail = quotes[content].text;
-      author = quotes[content].quotee;
+      // detail = quotes[content].text;
+      // author = quotes[content].quotee;
+      detail =
+        "“If you want to work on challenging problems that will have a profound impact on people’s lives - this is the place for you.”";
+      author = "Coen Stipdonk, COO";
     }
   }
 
@@ -81,6 +90,7 @@ function HomeSlider() {
             <img src={design} alt="" />
           </div>
         </div>
+
         <div className="slider__arrows">
           <img
             style={{ cursor: "pointer" }}

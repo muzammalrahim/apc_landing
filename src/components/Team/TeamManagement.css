@@ -3,7 +3,7 @@
     width: 100%;
     background-position: center;
     background-size: cover;
-    padding: 200px;
+    padding: 300px 0;
     height: 100%;
     background-repeat: no-repeat;
 }
@@ -39,5 +39,7 @@ color: #191919;
 
 }
 .team__managementImage{
-    width: 500px;
+    width: 600px;
+    position: relative;
+    top: 150px;
 }

@@ -41,16 +41,18 @@ function ContactRight() {
           </li>
         </ul>
       </nav>
-      <h1 className="contactRight__heading">Get in touch</h1>
-      <img src={line} alt="" className="contactRight__bottomLine " /> <br />
-      <button className="join__btn contactRight__btn ">Get in touch</button>
-      <h6 className="contactRight__smallHeading">
-        Amsterdam Platform Creation B.V,
-      </h6>
-      <p className="contactRight__text">
-        Parnassusweg 805, 1082 LZ Amsterdam, The <br /> Netherlands
-      </p>
-      <img src={social} alt="" className="contactRight__social" />
+      <div className="contactRight__content container ">
+        <h1 className="contactRight__heading">Get in touch</h1>
+        <img src={line} alt="" className="contactRight__bottomLine " /> <br />
+        <button className="join__btn contactRight__btn ">Get in touch</button>
+        <h6 className="contactRight__smallHeading">
+          Amsterdam Platform Creation B.V,
+        </h6>
+        <p className="contactRight__text">
+          Parnassusweg 805, 1082 LZ Amsterdam, The <br /> Netherlands
+        </p>
+        <img src={social} alt="" className="contactRight__social" />
+      </div>
       {/* <div className="contactRight__bottomImageSection">
         <img src={bottomLine} alt="" className="contactRight__bottomImage" />
       </div> */}

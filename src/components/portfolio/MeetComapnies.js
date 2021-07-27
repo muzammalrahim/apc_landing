@@ -1,6 +1,7 @@
 import React from "react";
 import "./MeetCompanies.css";
 import MeetCompanyCard from "./MeetCompanyCard";
+import MeetCompanyCard2 from "./MeetCompanyCard2";
 import card1 from "../../assets/meet-card1.png";
 import card2 from "../../assets/meet-card2.png";
 import card3 from "../../assets/meet-card3.png";
@@ -33,19 +34,19 @@ function MeetComapnies() {
             />
           </div>
           <div className="col-md-4">
-            <MeetCompanyCard
+            <MeetCompanyCard2
               image={card4}
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
           </div>
           <div className="col-md-4">
-            <MeetCompanyCard
+            <MeetCompanyCard2
               image={card5}
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
           </div>
           <div className="col-md-4">
-            <MeetCompanyCard
+            <MeetCompanyCard2
               image={card6}
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />

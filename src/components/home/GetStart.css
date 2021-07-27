@@ -7,7 +7,7 @@
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
-    margin-top: -93px;
+    margin-top: -110px;
    z-index: 100; 
 }
 .start__heading{
@@ -36,10 +36,17 @@ text-align: left;
 margin-top: 50px;
 }
 .start__left{
-    margin-top: 150px;
+    margin-top: 320px;
     /* margin-left: 50px; */
 }
-@media screen and (max-width: 1120px) {
+
+@media screen and (max-width: 1300px) {
+    .start__left{
+        margin-top: 150px;
+    }
+  } 
+
+/* @media screen and (max-width: 1120px) {
     .start__left{
         margin-top: 100px;
     }
@@ -103,7 +110,7 @@ margin-top: 50px;
     .start__right{
        
     }
-  } 
+  }  */
 .start__line{
     margin-top: -200px;
     width: 100%;

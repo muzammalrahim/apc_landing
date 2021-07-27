@@ -1,16 +1,29 @@
 .slider{
     background-image: url('../../assets/slide-bg.png');
-  
     padding: 200px;
     margin-top: -230px;
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media screen and (min-width:1450px) {
+    .slider{
+        padding: 350px;
+        margin-top: -280px;
+    }
+    .slider__arrows{
+        margin-top: 150px;
+    }
+    .slider__text{
+        font-size: 50px;
+    }
+    
+}
+
 .slider__text{
     font-family: Poppins;
 font-style: normal;
 font-weight: 300;
-font-size: 30px;
+font-size: 40px;
 line-height: 145%;
 /* or 58px */
 
@@ -35,8 +48,16 @@ color: #191919;
 }
 .slider__design{
     text-align: right;
+    position: relative;
+    left: 100px;
 }
 .slider__content{
     margin-top: 150px;
     height: 350px;
+}
+.slider__arrows{
+        /* margin-left: 300px;
+        margin-top:50px */
+        text-align: center;
+        margin-top: 130px;
 }

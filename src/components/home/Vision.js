@@ -20,13 +20,13 @@ function Vision() {
     fetchData();
   }, []);
   return (
-    <div className="vision">
-      <div className="container">
+    <div className="vision px-5">
+      <div className="container-fluid">
         <div className="row mt-5">
-          <div className="col-md-6 vision__left">
+          <div className="col-md-6">
             <img src={vision} alt="" className="vision__image" />
           </div>
-          <div className="col-md-6 vision__right">
+          <div className="col-md-6 ">
             <h1 className="vision__heading">{visionTitle}</h1>
             <p className="vision__content">{visionData}</p>
           </div>

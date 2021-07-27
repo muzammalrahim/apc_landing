@@ -71,8 +71,9 @@
         line-height: 145%;
         /* or 26px */
         
-        text-align: justify;
-        margin-left: 180px;
+        
+  
+       
         
         color: rgba(255, 255, 255, 0.8);
     }
@@ -88,4 +89,17 @@
     }
     .contactRight__borderBottom{
         border-bottom: 2px solid white;
+    }
+    .contactRight__content{
+        padding-left: 200px;
+    }
+    @media screen and (max-width:1354px) {
+        .contactRight__content{
+            padding-left: 150px;
+        }
+    }
+    @media screen and (max-width:1254px) {
+        .contactRight__content{
+            padding-left: 100px;
+        }
     }

@@ -33,7 +33,7 @@ align-items: center;
 
 color: #FFFFFF;
 background-color: #191919;
-width: 50%;
+width: 70%;
 margin: 0 auto;
 height: 60px;
 
@@ -45,7 +45,7 @@ height: 60px;
     border-radius: 2px;
     padding: 20px 15px;
     position: relative;
-    left:243px;
+    left:350px;
     bottom: 42px;
     
 
@@ -57,7 +57,7 @@ height: 60px;
     border-radius: 2px;
     padding: 20px 15px;
     position: relative;
-    left:243px;
+    left:350px;
     bottom: 42px;
 
     
@@ -68,13 +68,15 @@ height: 60px;
     border-radius: 2px;
     padding: 20px 15px;
     position: relative;
-    left:243px;
+    left:350px;
     bottom: 42px;
 
     
 }
 .hiring__cardTextImage{
     width: 140px;
+    position: relative;
+    left: 80px;
 }
 /* .hiring__card{
     display: flex;

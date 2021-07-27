@@ -11,9 +11,8 @@ function Header() {
   // };
 
   return (
-    <div className="header ">
-      {console.log(actives)}
-      <nav className="navbar navbar-expand-lg navbar-light   container">
+    <div className="header mx-5 px-5">
+      <nav className="navbar navbar-expand-lg navbar-light   ">
         <Link to="/" className="navbar-brand" href="#">
           <img src={logo} alt="" />
         </Link>

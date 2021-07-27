@@ -7,7 +7,7 @@ import arrow from "../../assets/team-arrow.png";
 
 function Hiring() {
   return (
-    <div className="hiring container mt-5 py-5">
+    <div className="hiring container mt-5 py-5 text-center">
       <h2 className="hiring__heading mb-5">We're hiring!</h2>
       <div className="container">
         {/* card 1 */}

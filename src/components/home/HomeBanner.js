@@ -7,12 +7,14 @@ function HomeBanner() {
     <div className="homeBanner ">
       <div className="container">
         <h1 className="homeBanner__heading">
-          To us, investing in fitech starts with investing in
+          To us, investing in fintech starts with investing in
           <span> people.</span>
         </h1>
       </div>
+
       <div className="homeBanner__image">
-        <img src={design} alt="" />
+        {/* <img src={design} alt="" /> */}
+        <div className="banner__image"></div>
       </div>
     </div>
   );

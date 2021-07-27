@@ -19,20 +19,19 @@ function PortfolioBanner() {
     fetchData();
   }, []);
   return (
-    <div className="portfolioBanner ">
-      <div className="container">
-        <h1 className="portfolioBanner__heading">
-          {/* Be the next fintech<span> success story.</span> */}
-          {title}
-          <div className="text-right">
-            <img src={line} alt="" />
-          </div>
-        </h1>
-        <p className="portfolioBanner__text mt-5">{text}</p>
-      </div>
-      <div className="portfolioBanner__imageSection">
+    <div className="portfolioBanner mx-5 px-5 ">
+      <h1 className="portfolioBanner__heading">
+        {/* Be the next fintech<span> success story.</span> */}
+        {title}
+        <div className="text-right ">
+          <img src={line} alt="" className="bottom__image" />
+        </div>
+      </h1>
+      <p className="portfolioBanner__text mt-5">{text}</p>
+
+      {/* <div className="portfolioBanner__imageSection">
         <img className="portfolioBanner__image" src={banner} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 }

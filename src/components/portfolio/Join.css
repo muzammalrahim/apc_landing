@@ -3,7 +3,7 @@
 
     background-color: white;
     padding-bottom: 100px;
-    
+     text-align: center;
     
 
 }
@@ -14,8 +14,8 @@
  
 }
 .join__image{
-   margin-top: -150px;
-   width: 250px;
+   margin-top: -268px;
+   width: 350px;
 }
 .join__heading{
     font-family: Poppins;
@@ -25,13 +25,13 @@ font-size: 50px;
 line-height: 135%;
 text-align: center;
 /* or 68px */
-
+margin-top: -150px;
 
 color: #191919;
 /* margin-left: auto; */
-margin-left: 10%;
-margin-right: auto;
-margin-top: 100px;
+
+
+
 margin-bottom: 50px
 
 }
@@ -50,5 +50,5 @@ padding: 7px 25px;
 color: #FFFFFF;
 border: none;
 cursor:pointer;
-margin-right: 180px;
+
 }

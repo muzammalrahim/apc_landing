@@ -78,34 +78,31 @@ function HomeSlider() {
   return (
     <div className="slider">
       <div className="container slider__content">
-        <div className="slider__content">
-          <p className="slider__text">{detail}</p>
-          <p className="slider__author mt-3">{author}</p>
-          <div className="slider__company">
-            {/* <img src={icon} alt="" />
+        <p className="slider__text">{detail}</p>
+        <p className="slider__author mt-3">{author}</p>
+        <div className="slider__company">
+          {/* <img src={icon} alt="" />
           <img src={company} alt="" /> */}
-            <img className="slider__companyLogo" src={image} alt="" />
-          </div>
-          <div className="slider__design">
-            <img src={design} alt="" />
-          </div>
+          <img className="slider__companyLogo" src={image} alt="" />
         </div>
-
-        <div className="slider__arrows">
-          <img
-            style={{ cursor: "pointer" }}
-            src={prev}
-            alt=""
-            className="mx-5"
-            onClick={prevHandler}
-          />
-          <img
-            style={{ cursor: "pointer" }}
-            src={next}
-            alt=""
-            onClick={nextHandler}
-          />
+        <div className="slider__design">
+          <img src={design} alt="" />
         </div>
+      </div>
+      <div className="slider__arrows">
+        <img
+          style={{ cursor: "pointer" }}
+          src={prev}
+          alt=""
+          className="mx-5"
+          onClick={prevHandler}
+        />
+        <img
+          style={{ cursor: "pointer" }}
+          src={next}
+          alt=""
+          onClick={nextHandler}
+        />
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ import line from "../../assets/team-banner-line.png";
 
 function TeamBanner() {
   return (
-    <div className="teamBanner container">
+    <div className="teamBanner mx-5 px-5">
       <h1 className="teamBanner__heading">
         A strong community <br /> <img src={plus} alt="" /> decades of
         experience <img src={equal} alt="" /> <br />{" "}

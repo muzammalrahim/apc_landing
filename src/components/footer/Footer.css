@@ -1,0 +1,62 @@
+.footer{
+  width: 100%;
+  background-color: #191919;
+  margin-top: 50px;
+
+}
+.footer__left{
+    margin-top: 150px;
+
+}
+.footer__heading{
+    color:white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 135%;
+
+}
+
+.footer__rightImage{
+  width: 100%; 
+  height: 100%;
+}
+
+.footer__heading span{
+  background-image: url("../../assets/footer-line-left.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.footer__btnContact{
+  background: #6237B6;
+border-radius: 100px;
+padding: 10px 25px;
+border: none;font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 145%;
+cursor: pointer;
+outline: none;
+color: #FFFFFF;
+}
+
+.footer__Box{
+  margin-top: 190px;
+}
+
+.footer__text{
+  font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 145%;
+display: flex;
+align-items: center;
+color: rgba(255, 255, 255, 0.8);
+margin-top: 20px;
+}
+.linkedIn{
+  margin-bottom: 30px;
+}

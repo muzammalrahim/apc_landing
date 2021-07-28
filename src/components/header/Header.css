@@ -1,0 +1,26 @@
+
+.header{
+    margin-top: 15px;
+    
+}
+nav .navbar-nav li a{
+    color: black !important;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+
+    /* or 26px */
+    height: 60px;
+    
+ 
+    
+    color: #191919;
+    }
+    .header__link:hover{
+            border-bottom: 2px solid black;
+    }
+    .active{
+        border-bottom: 2px solid black;
+    }
+  

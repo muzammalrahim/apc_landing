@@ -1,0 +1,30 @@
+.contactLeft{
+    /* text-align: right; */
+    margin-top: 25px;
+    margin-left: auto;
+    padding-left: auto;
+    height: 100%;
+
+  
+}
+.contactLeft__text{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 60px;
+line-height: 135%;
+/* or 81px */
+
+display: flex;
+align-items: center;
+
+color: #191919;
+margin: 200px 0px;
+}
+.contactLeft__image{
+    position: absolute;
+    top:280px;
+    left:130px;
+    z-index:10;
+    width: 100%;
+}

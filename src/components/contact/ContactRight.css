@@ -1,0 +1,110 @@
+.contactRight{
+    background-image: url('../../assets/contact-bg.png');
+    background-size: cover;
+    background-position: center;
+    
+    width: 100%;
+    height: 100vh;
+    padding-top: 25px;
+    margin-right: -15px;
+}
+@media screen and (max-width:1550px) {
+    .contactRight{
+        height: 100%;
+    }
+}
+.contactNav .navbar-nav li a{
+    color: white !important;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 145%;
+    /* or 26px */
+    
+    display: flex;
+    align-items: center;
+    
+  
+    }
+    .contactRight__heading{
+        /* background-image: url('../../assets/contact-right-line.png');
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat; */
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 50px;
+        line-height: 150%;
+        margin-right: 100px;
+        /* identical to box height, or 75px */
+
+
+        color: #FFFFFF;
+        margin-top:100px
+
+    }
+    .contactRight__bottomLine{
+        /* margin-left: 50px; */
+        margin-top: -50px;
+        margin-right: 100px;
+    }
+    .contactRight__btn{
+        margin-right: 220px;
+        margin-top: 20px;
+
+    }
+    .contactRight__smallHeading{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 145%;
+        /* or 26px */
+
+        margin-top:50px;
+        margin-right: 100px;
+
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .contactRight__text{
+        font-family: Open Sans;
+        font-style: normal;
+       
+        font-size: 14px;
+        line-height: 145%;
+        /* or 26px */
+        
+        
+  
+       
+        
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .contactRight__social{
+        margin-right: 340px;
+    }
+    .contactRight__bottomImage{
+       
+       width:260px;
+       margin-left: 490px;
+
+   
+    }
+    .contactRight__borderBottom{
+        border-bottom: 2px solid white;
+    }
+    .contactRight__content{
+        padding-left: 200px;
+    }
+    @media screen and (max-width:1354px) {
+        .contactRight__content{
+            padding-left: 150px;
+        }
+    }
+    @media screen and (max-width:1254px) {
+        .contactRight__content{
+            padding-left: 100px;
+        }
+    }

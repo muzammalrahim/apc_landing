@@ -1,0 +1,28 @@
+.meetCompanies{
+    background-image: url('../../assets/meet-companies-bg.png');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+    z-index: 10;
+   margin-top: -65px;
+   text-align: center;
+   height:1100px ;
+    
+}
+.meetCompanies__heading{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+line-height: 135%;
+/* identical to box height, or 68px */
+margin-bottom: 50px;
+
+
+
+color: #FFFFFF;
+}

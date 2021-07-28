@@ -28,7 +28,11 @@ function Footer() {
                 <br /> Parnassusweg 805, 1082 LZ Amsterdam, The <br />{" "}
                 Netherlands
               </p>
+              
+                <a href="https://nl.linkedin.com/company/amsterdam-platform-creation" target="_blank">
               <img src={LinkedIn} alt="" className="linkedIn" />
+              </a>
+             
             </div>
             {/* <h1 className="footer__heading">
               Let's work <span>together.</span>

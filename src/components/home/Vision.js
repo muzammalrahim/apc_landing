@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Vision.css";
-import vision from "../../assets/home-vision.png";
+import vision from "../../assets/Vision_section_image.jpg";
 import client from "../../client";
 
 function Vision() {
@@ -21,12 +21,12 @@ function Vision() {
   }, []);
   return (
     <div className="vision px-5">
-      <div className="container-fluid">
+      <div className="container pl-0 pr-0">
         <div className="row mt-5">
           <div className="col-md-6">
             <img src={vision} alt="" className="vision__image" />
           </div>
-          <div className="col-md-6 ">
+          <div className="col-md-6 pr-0 pl-5">
             <h1 className="vision__heading">{visionTitle}</h1>
             <p className="vision__content">{visionData}</p>
           </div>

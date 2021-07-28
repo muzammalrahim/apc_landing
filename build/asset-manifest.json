@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb9f6fbe.chunk.css",
-    "main.js": "/static/js/main.0458ec70.chunk.js",
-    "main.js.map": "/static/js/main.0458ec70.chunk.js.map",
+    "main.css": "/static/css/main.7ed691f4.chunk.css",
+    "main.js": "/static/js/main.f018c6a0.chunk.js",
+    "main.js.map": "/static/js/main.f018c6a0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.41c5873c.js",
     "runtime-main.js.map": "/static/js/runtime-main.41c5873c.js.map",
-    "static/js/2.2a9ba3f8.chunk.js": "/static/js/2.2a9ba3f8.chunk.js",
-    "static/js/2.2a9ba3f8.chunk.js.map": "/static/js/2.2a9ba3f8.chunk.js.map",
+    "static/js/2.f185f136.chunk.js": "/static/js/2.f185f136.chunk.js",
+    "static/js/2.f185f136.chunk.js.map": "/static/js/2.f185f136.chunk.js.map",
     "static/js/3.840c1ea4.chunk.js": "/static/js/3.840c1ea4.chunk.js",
     "static/js/3.840c1ea4.chunk.js.map": "/static/js/3.840c1ea4.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.fb9f6fbe.chunk.css.map": "/static/css/main.fb9f6fbe.chunk.css.map",
-    "static/js/2.2a9ba3f8.chunk.js.LICENSE.txt": "/static/js/2.2a9ba3f8.chunk.js.LICENSE.txt",
-    "static/media/contact-arrow.45109640.png": "/static/media/contact-arrow.45109640.png",
-    "static/media/ContactRight.css": "/static/media/contact-bg.76b5e30a.png",
+    "static/css/main.7ed691f4.chunk.css.map": "/static/css/main.7ed691f4.chunk.css.map",
+    "static/js/2.f185f136.chunk.js.LICENSE.txt": "/static/js/2.f185f136.chunk.js.LICENSE.txt",
+    "static/media/APC-logo.7e0d3073.svg": "/static/media/APC-logo.7e0d3073.svg",
+    "static/media/HomeBanner.css": "/static/media/below-line.d19b9756.svg",
+    "static/media/Vision_section_image.b90d9ec0.jpg": "/static/media/Vision_section_image.b90d9ec0.jpg",
+    "static/media/arrow-next.cf9f9c0e.svg": "/static/media/arrow-next.cf9f9c0e.svg",
+    "static/media/arrow-prev.4d6d9b21.svg": "/static/media/arrow-prev.4d6d9b21.svg",
     "static/media/contactRight-bottom.5c6c4412.png": "/static/media/contactRight-bottom.5c6c4412.png",
+    "static/media/contact_circle.5624c916.svg": "/static/media/contact_circle.5624c916.svg",
     "static/media/footer-right.1a9cf7d2.png": "/static/media/footer-right.1a9cf7d2.png",
-    "static/media/HomeBanner.css": "/static/media/home-banner.ee9a36af.png",
+    "static/media/Footer.css": "/static/media/footer_circle.0cef61ad.svg",
+    "static/media/home-banner.ee9a36af.png": "/static/media/home-banner.ee9a36af.png",
     "static/media/home-bulb.5eaa8a8d.png": "/static/media/home-bulb.5eaa8a8d.png",
-    "static/media/home-vision.3221f05c.png": "/static/media/home-vision.3221f05c.png",
     "static/media/join-image.febe7f83.png": "/static/media/join-image.febe7f83.png",
     "static/media/meet-image-white.10a2092c.png": "/static/media/meet-image-white.10a2092c.png",
     "static/media/PortfolioBanner.css": "/static/media/portfolio-banner-bg.ecbbb76d.png",
@@ -32,12 +36,13 @@
     "static/media/team5.f47e6b5c.png": "/static/media/team5.f47e6b5c.png",
     "static/media/team6.cbfd7bd0.png": "/static/media/team6.cbfd7bd0.png",
     "static/media/team7.8f223380.png": "/static/media/team7.8f223380.png",
-    "static/media/team8.b7a955be.png": "/static/media/team8.b7a955be.png"
+    "static/media/team8.b7a955be.png": "/static/media/team8.b7a955be.png",
+    "static/media/yellow_arrow_line_contact.20bdc3b3.svg": "/static/media/yellow_arrow_line_contact.20bdc3b3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.41c5873c.js",
-    "static/js/2.2a9ba3f8.chunk.js",
-    "static/css/main.fb9f6fbe.chunk.css",
-    "static/js/main.0458ec70.chunk.js"
+    "static/js/2.f185f136.chunk.js",
+    "static/css/main.7ed691f4.chunk.css",
+    "static/js/main.f018c6a0.chunk.js"
   ]
 }

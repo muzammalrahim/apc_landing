@@ -9,8 +9,8 @@ import design2 from "../../assets/slider-image2.png";
 import design3 from "../../assets/slide-image3.png";
 import design4 from "../../assets/slider-image4.png";
 
-import next from "../../assets/arrow-next.png";
-import prev from "../../assets/arrow-prev.png";
+import next from "../../assets/arrow-next.svg";
+import prev from "../../assets/arrow-prev.svg";
 import client from "../../client";
 
 function HomeSlider() {

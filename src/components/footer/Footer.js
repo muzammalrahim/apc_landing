@@ -6,7 +6,8 @@ import LinkedIn from "../../assets/linkedin 5.png";
 import { Link } from "react-router-dom";
 function Footer() {
   return (
-    <div className="footer ">
+    <div className="footer">
+      <div className="container">
       <div className="row">
         <div className="col-md-7 footer__left">
           <div className="container ml-5">
@@ -37,9 +38,11 @@ function Footer() {
             </Link>*/}
           </div>
         </div>
-        <div className="col-md-5  ">
+        {/* <div className="col-md-5  ">
           <img src={rightImage} alt="" className="footer__rightImage" />
-        </div>
+        </div> */}
+        
+      </div>
       </div>
     </div>
   );

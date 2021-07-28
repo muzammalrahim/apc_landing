@@ -1,10 +1,13 @@
 import React from "react";
 import ContactLeft from "../../components/contact/ContactLeft";
 import ContactRight from "../../components/contact/ContactRight";
+import ContactRB from "../../assets/contact_circle.svg";
 
 function Contact() {
   return (
-    <div className="container-fluid">
+    <div className="ext-bg">
+    <img src={ContactRB} alt="" className="contactRB" />
+    <div className="container">
       <div className="row">
         <div className="col-md-6">
           <div className="container">
@@ -15,6 +18,7 @@ function Contact() {
           <ContactRight />
         </div>
       </div>
+    </div>
     </div>
   );
 }

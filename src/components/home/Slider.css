@@ -1,13 +1,20 @@
 .slider{
-    background-image: url('../../assets/slide-bg.png');
+    /* margin-top: 500px !important;
+    background-image: url('../../assets/slide-bg.png'); 
     padding: 200px;
-    margin-top: -230px;
+    margin-top: -230px; 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
+    background-color: #FAFAFA;
+    padding-bottom: 120px;
+    clip-path: polygon(0 5vw,100% 0,100% -moz-calc(100% - 5vw),0 100%);
+    clip-path: polygon(0 5vw,100% 0,100% calc(100% - 5vw),0 100%);
 }
+
+
 @media screen and (min-width:1450px) {
     .slider{
-        padding: 350px;
+        padding: 150px 350px;
         margin-top: -280px;
     }
     .slider__arrows{
@@ -21,15 +28,11 @@
 
 .slider__text{
     font-family: Poppins;
-font-style: normal;
-font-weight: 300;
-font-size: 40px;
-line-height: 145%;
-/* or 58px */
-
-text-align: justify;
-
-color: #191919;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 58px;
+    color: #191919;
 
 }
 .slider__author{
@@ -52,12 +55,17 @@ color: #191919;
     left: 100px;
 }
 .slider__content{
-    margin-top: 150px;
-    height: 350px;
+    padding: 60px 160px 20px 160px;
+    height: 375px;
 }
 .slider__arrows{
         /* margin-left: 300px;
         margin-top:50px */
         text-align: center;
-        margin-top: 130px;
+        z-index: 999;
+        position: relative;
+}
+
+img.slider__companyLogo {
+    width: 25%;
 }

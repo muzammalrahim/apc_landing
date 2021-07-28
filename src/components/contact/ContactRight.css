@@ -1,11 +1,11 @@
 .contactRight{
-    background-image: url('../../assets/contact-bg.png');
+    /* background-image: url('../../assets/contact-bg.png'); */
     background-size: cover;
     background-position: center;
     
     width: 100%;
     height: 100vh;
-    padding-top: 25px;
+    padding-top: 5px;
     margin-right: -15px;
 }
 @media screen and (max-width:1550px) {
@@ -107,4 +107,12 @@
         .contactRight__content{
             padding-left: 100px;
         }
+    }
+
+
+    .ext-bg img.contactRB {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 35%;
     }

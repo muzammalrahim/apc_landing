@@ -1,12 +1,12 @@
 .vision{
-    padding: 50px 0;
+    padding: 100px 0;
 }
 .vision__heading{
     font-family: Poppins;
 font-style: normal;
 font-weight: 300;
 font-size: 50px;
-line-height: 135%;
+line-height: 67px;
 /* identical to box height, or 68px */
 
 display: flex;
@@ -27,7 +27,6 @@ display: flex;
 align-items: center;
 
 color: #191919;
-text-align: justify;
 }
 
 .vision__right{
@@ -40,11 +39,11 @@ text-align: justify;
 
 }
 @media screen and (min-width:1297px) {
-    .vision__heading{
+    /* .vision__heading{
         font-size: 55px;
     }
     .vision__content{
         font-size: 28px;
-    }
+    } */
     
 }

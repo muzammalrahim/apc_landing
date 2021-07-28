@@ -20,7 +20,7 @@ function GetStart() {
   }, []);
   return (
     <div className="start_main">
-      <div className="start">
+      {/* <div className="start">
         <div className="row my-5 py-5">
           <div className="col-md-6 start__left">
             <h1 className="start__heading">{title}</h1>
@@ -33,7 +33,7 @@ function GetStart() {
       </div>
       <div className="start__line text-left">
         <img src={line} alt="" className="line__image" />
-      </div>
+      </div> */}
     </div>
   );
 }

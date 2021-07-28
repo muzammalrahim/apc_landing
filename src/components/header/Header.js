@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Header.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/APC-logo.svg";
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -11,7 +11,7 @@ function Header() {
   // };
 
   return (
-    <div className="header mx-5 px-5">
+    <div className="container header pl-0 pr-0">
       <nav className="navbar navbar-expand-lg navbar-light   ">
         <Link to="/" className="navbar-brand" href="#">
           <img src={logo} alt="" />

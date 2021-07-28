@@ -23,8 +23,14 @@ margin: 200px 0px;
 }
 .contactLeft__image{
     position: absolute;
-    top:280px;
+    top:305px;
     left:130px;
     z-index:10;
     width: 100%;
+}
+
+.ext-bg{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(25,25,25,1) 50%);
+    /* background-image: url('../../assets/contact-bg.png'); */
 }

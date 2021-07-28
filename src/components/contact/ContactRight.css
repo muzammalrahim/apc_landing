@@ -52,15 +52,16 @@
     }
     .contactRight__btn{
         margin-right: 220px;
-        margin-top: 20px;
+        margin-top: 5px;
+        padding: 10px 45px;
 
     }
     .contactRight__smallHeading{
         font-family: Open Sans;
         font-style: normal;
-        font-weight: bold;
+        font-weight: 700;
         font-size: 18px;
-        line-height: 145%;
+        line-height: 26px;
         /* or 26px */
 
         margin-top:50px;
@@ -72,8 +73,9 @@
         font-family: Open Sans;
         font-style: normal;
        
-        font-size: 14px;
-        line-height: 145%;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 25px;
         /* or 26px */
         
         

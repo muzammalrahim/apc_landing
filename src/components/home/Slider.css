@@ -18,7 +18,7 @@
         margin-top: -280px;
     }
     .slider__arrows{
-        margin-top: 150px;
+        /* margin-top: 150px; */
     }
     .slider__text{
         font-size: 50px;
@@ -55,8 +55,8 @@ color: #191919;
     left: 100px;
 }
 .slider__content{
-    padding: 60px 160px 20px 160px;
-    height: 375px;
+    padding: 60px 160px 20px 50px;
+    /* height: 375px; */
 }
 .slider__arrows{
         /* margin-left: 300px;

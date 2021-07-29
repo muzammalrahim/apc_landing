@@ -26,27 +26,35 @@ font-style: normal;
 font-weight: bold;
 font-size: 20px;
 line-height: 145%;
-/* or 29px */
-
 display: flex;
 align-items: center;
-
 color: #FFFFFF;
 background-color: #191919;
-width: 70%;
+
 margin: 0 auto;
 height: 60px;
+padding: 35px !important;
 
 
 }
+
+.team .hiring a{
+    text-decoration: none;
+}
+
+.team .wrap{
+    width: 50%;
+    margin: 0 auto;
+}
+
 .hiring__cardRight1{
     width: 10%;
     background-color: #7CEBDB;
     border-radius: 2px;
-    padding: 20px 15px;
+    padding: 25px 15px;
     position: relative;
-    left:350px;
-    bottom: 42px;
+    left: 350px;
+    bottom: 47px;
     
 
     
@@ -55,10 +63,10 @@ height: 60px;
     width: 10%;
     background-color: #FFB200;
     border-radius: 2px;
-    padding: 20px 15px;
+    padding: 25px 15px;
     position: relative;
-    left:350px;
-    bottom: 42px;
+    left: 350px;
+    bottom: 47px;
 
     
 }
@@ -66,17 +74,17 @@ height: 60px;
     width: 10%;
     background-color: #5F6AD8;
     border-radius: 2px;
-    padding: 20px 15px;
+    padding: 25px 15px;
     position: relative;
-    left:350px;
-    bottom: 42px;
+    left: 350px;
+    bottom: 47px;
 
     
 }
 .hiring__cardTextImage{
     width: 140px;
     position: relative;
-    left: 80px;
+    left: 25px;
 }
 /* .hiring__card{
     display: flex;

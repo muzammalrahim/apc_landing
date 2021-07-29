@@ -19,7 +19,7 @@ function PortfolioBanner() {
     fetchData();
   }, []);
   return (
-    <div className="portfolioBanner mx-5 px-5 ">
+    <div className="container portfolioBanner">
       <h1 className="portfolioBanner__heading">
         Be part of the next fintech <span> success story.</span>
         {/* <div className="text-right ">
@@ -27,9 +27,9 @@ function PortfolioBanner() {
         </div> */}
       </h1>
       <p className="portfolioBanner__text mt-5 pt-5">
-        APC strategically invests in fintech firms that deliver best in class
+        {/* APC strategically invests in fintech firms that deliver best in class
         financial related services. And to us, investing in fintech starts with
-        investing in people.
+        investing in people. */}
       </p>
 
       {/* <div className="portfolioBanner__imageSection">

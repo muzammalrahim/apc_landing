@@ -1,12 +1,15 @@
 .teamManagement{
-    background-image: url('../../assets/team-management-bg.png');
+    /* background-image: url('../../assets/team-management-bg.png');
     width: 100%;
     background-position: center;
-    background-size: cover;
-    padding: 300px 0;
-    height: 100%;
+    background-size: cover; */
+    padding: 250px 0;
+    /* height: 100%; */
     background-repeat: no-repeat;
     text-align: center;
+    background-color: #FAFAFA;
+    -webkit-clip-path: polygon(0 5vw,100% 0,100% calc(100% - 5vw),0 100%);
+    clip-path: polygon(0 5vw,100% 0,100% calc(100% - 5vw),0 100%);
 }
 .teamManagement__heading{
     font-family: Poppins;
@@ -27,9 +30,6 @@ font-weight: normal;
 font-size: 28px;
 line-height: 170%;
 /* or 37px */
-
-
-
 color: #191919;
 
 }
@@ -42,5 +42,5 @@ color: #191919;
 .team__managementImage{
     width: 600px;
     position: relative;
-    top: 150px;
+    top: 40px;
 }

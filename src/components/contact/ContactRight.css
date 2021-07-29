@@ -42,7 +42,7 @@
 
 
         color: #FFFFFF;
-        margin-top:100px
+        margin-top:170px
 
     }
     .contactRight__bottomLine{
@@ -98,7 +98,7 @@
         border-bottom: 2px solid white;
     }
     .contactRight__content{
-        padding-left: 200px;
+        padding-left: 100px;
     }
     @media screen and (max-width:1354px) {
         .contactRight__content{
@@ -117,4 +117,8 @@
         right: 0;
         bottom: 0;
         width: 35%;
+    }
+
+    .contactRight .header__link:hover {
+        border-bottom: 2px solid #fff;
     }

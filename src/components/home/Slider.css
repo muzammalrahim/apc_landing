@@ -14,7 +14,7 @@
 
 @media screen and (min-width:1450px) {
     .slider{
-        padding: 150px 350px;
+        padding: 200px 310px;
         margin-top: -280px;
     }
     .slider__arrows{
@@ -67,5 +67,5 @@ color: #191919;
 }
 
 img.slider__companyLogo {
-    width: 25%;
+    width: 20%;
 }

@@ -81,6 +81,7 @@ function Header() {
                 }
                 href="https://apc.homerun.co/"
                 onClick={() => setActive("jobs")}
+                target="_blank"
               >
                 Jobs
               </a>

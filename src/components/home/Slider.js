@@ -54,27 +54,35 @@ function HomeSlider() {
       // detail = quotes[content].text;
       // author = quotes[content].quotee;
       detail =
-        "“I love working with ambitious colleagues with proven track records as I believe investing is about people.“";
-      author = "Niels Klok, Managing Partner";
+        "“You just want to work with people that have been in your shoes, and nobody has the track record that APC has in the Startup and Fintech scene. Their knowhow has been an invaluable asset in order to achieve our targets at each single level.“";
+      author = "Carlos Valenzuela, CEO";
     }
     if (content == 1) {
       image = design2;
       // detail = quotes[content].text;
       // author = quotes[content].quotee;
       detail =
-        "“The future is about connecting the right things instead of building it all yourself.”";
-      author = "Florea Parauan, CTO";
+        "“APC brings so much to the table over just money as the team is very experienced in the fintech space. For us, if we could pick any investor to have on board, it would be APC.”";
+      author = "Frank Schuitemaker, CEO, Sniptech";
     }
     if (content == 2) {
       image = design3;
       // detail = quotes[content].text;
       // author = quotes[content].quotee;
       detail =
-        "“If you want to work on challenging problems that will have a profound impact on people’s lives - this is the place for you.”";
-      author = "Coen Stipdonk, COO";
+        "“Working with APC, we’ve been able to get connections we never would have been able to previously. The team provides us with active support, has helped us find great technical collaboration partners and potential customers.”";
+      author = "Gijs de Jager, CCO, Orangebuddies";
+    }
+    if (content == 3) {
+      image = design4;
+      // detail = quotes[content].text;
+      // author = quotes[content].quotee;
+      detail =
+        "“It’s notable the amount of experience and learnings we were able to accelerate by working with APC. The team knows how to deal with a growing scale-up because they’ve been on the other side.”";
+      author = "Michal Kratochvil, CEO, Budgetbakers";
     }
   }
-
+//console.log("content count",content)
   return (
     <div className="slider">
       <div className="container slider__content">

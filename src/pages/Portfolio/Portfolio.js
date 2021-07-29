@@ -7,7 +7,7 @@ import PortfolioBanner from "../../components/portfolio/PortfolioBanner";
 
 function Portfolio() {
   return (
-    <div>
+    <div className="Portfolio-Main">
       <Header />
       <PortfolioBanner />
       <MeetComapnies />

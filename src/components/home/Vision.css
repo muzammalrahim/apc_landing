@@ -6,13 +6,11 @@
 font-style: normal;
 font-weight: 300;
 font-size: 50px;
-line-height: 67px;
-/* identical to box height, or 68px */
-
+line-height: 36px;
+margin-bottom: 40px;
 display: flex;
 align-items: center;
 text-align: center;
-
 color: #191919;
 }
 .vision__content{
@@ -34,9 +32,7 @@ color: #191919;
     
 }
 .vision__image{
-    width: 100%;
-    height: 100%;
-
+    width: 70%;
 }
 @media screen and (min-width:1297px) {
     /* .vision__heading{

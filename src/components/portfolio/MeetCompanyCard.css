@@ -4,11 +4,12 @@ border: 1px solid #7CEBDB;
 box-sizing: border-box;
 box-shadow: 0px -3px 0px #7CEBDB;
 width: 100%;
-padding-top: 50px;
+padding-top: 100px;
 height: 250px;
 margin: 10px ;
 padding-left: 50px;
 padding-right: 50px;
+text-align: center;
 }
 .meetCompanyCard__image{
     width: 200px;

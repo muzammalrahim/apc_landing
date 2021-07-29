@@ -26,7 +26,7 @@ function ContactRight() {
             </Link>
           </li>
           <li className="nav-item mx-3">
-            <a className="nav-link header__link" href="#">
+            <a className="nav-link header__link" href="#" target="_blank">
               Jobs
             </a>
           </li>
@@ -44,7 +44,9 @@ function ContactRight() {
       <div className="contactRight__content container ">
         <h1 className="contactRight__heading">Get in touch</h1>
         <img src={line} alt="" className="contactRight__bottomLine " /> <br />
-        <button className="join__btn contactRight__btn ">Email us</button>
+        <a href="mailto:hr@apcreation.nl">
+          <button className="join__btn contactRight__btn ">Email us</button>
+        </a>
         <h6 className="contactRight__smallHeading">
           Amsterdam Platform Creation B.V,
         </h6>

@@ -2,10 +2,13 @@
   width: 100%;
   background-color: #191919;
   margin-top: 50px;
-  margin-top: 50px;
   background: url("../../assets/footer_circle.svg") #191919;
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.Portfolio-Main .footer{
+  margin-top: 0;
 }
 
 
@@ -48,7 +51,7 @@ color: #FFFFFF;
 }
 
 .footer__Box{
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .footer__text{

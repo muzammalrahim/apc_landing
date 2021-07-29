@@ -6,7 +6,7 @@ function MeetCompanyCard({ image, text }) {
   return (
     <div className="meetCompanyCard2">
       <img className="meetCompanyCard2__image" src={image} />
-      <p className="meetCompanyCard2__text mt-5">{text}</p>
+      {/* <p className="meetCompanyCard2__text mt-5">{text}</p> */}
     </div>
   );
 }

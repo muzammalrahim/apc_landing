@@ -5,19 +5,19 @@ import line from "../../assets/start-line.png";
 import client from "../../client";
 
 function GetStart() {
-  const [content, setContent] = useState("");
-  const [title, setTitle] = useState("");
-  const fetchData = async () => {
-    var res = await client.fetch(`*[_type=='about-section']{content[0]}`);
-    // console.log(res[0].content.text);
-    if (res && res.length > 0) {
-      setContent(res[0].content.text);
-      setTitle(res[0].content.title);
-    }
-  };
-  useEffect(() => {
-    fetchData();
-  }, []);
+  // const [content, setContent] = useState("");
+  // const [title, setTitle] = useState("");
+  // const fetchData = async () => {
+  //   var res = await client.fetch(`*[_type=='about-section']{content[0]}`);
+  //   // console.log(res[0].content.text);
+  //   if (res && res.length > 0) {
+  //     setContent(res[0].content.text);
+  //     setTitle(res[0].content.title);
+  //   }
+  // };
+  // useEffect(() => {
+  //   fetchData();
+  // }, []);
   return (
     <div className="start_main">
       {/* <div className="start">

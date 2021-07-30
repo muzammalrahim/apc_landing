@@ -1,12 +1,18 @@
 .portfolioBanner{
     margin-top: 200px;
-    height: 500px;
+    /* height: 700px;
+    background-image: url('../../assets/portfolio-banner-bg.png');
+    width: 97%;
+    background-position: center;
+    background-size: cover; */
+   
+  
 }
 .portfolioBanner__heading{
     font-family: Poppins;
 font-style: normal;
 font-weight: 300;
-font-size: 48.5px;
+font-size: 60px;
 line-height: 150%;
 /* or 108px */
 
@@ -16,20 +22,28 @@ text-align: left;
 color: #191919;
 
 }
-/* .portfolioBanner__heading span{
-    background-image: url("../../assets/portfolio-banner-line.png");
+.portfolioBanner__heading span{
+    background-image: url("../../assets/portfolio_purple_line.svg");
     background-repeat: no-repeat;
     background-position: bottom;
-} */
+    background-size: 95%;
+    padding-bottom: 10px;
+}
+   
+   
+  
 .portfolioBanner__imageSection{
     text-align: right;
     margin-top: -450px;
+    /* background-image: url('../../assets/portfolio-banner.png');
+    width: 100%;
+    height: 500px; */
 }
 .portfolioBanner__image{
     /* text-align: left;
     z-index: -1;
     margin-top: 50px; */
-    width: 100%;
+    width: 74.5%;
     height: 100%;
     object-fit: contain;
     z-index: -1;
@@ -38,7 +52,7 @@ color: #191919;
     font-family: Poppins;
 font-style: normal;
 font-weight: 300;
-font-size: 25px;
+font-size: 30px;
 line-height: 150%;
 /* or 52px */
 margin-bottom: 40px;
@@ -48,4 +62,9 @@ text-align: left;
 
 color: #191919;
 
+}
+.bottom__image{
+    position: relative;
+    bottom: 40px;
+    right: 290px;
 }

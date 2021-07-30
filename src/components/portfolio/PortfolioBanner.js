@@ -19,20 +19,22 @@ function PortfolioBanner() {
     fetchData();
   }, []);
   return (
-    <div className="portfolioBanner ">
-      <div className="container">
-        <h1 className="portfolioBanner__heading">
-          {/* Be the next fintech<span> success story.</span> */}
-          {title}
-          <div className="text-right">
-            <img src={line} alt="" />
-          </div>
-        </h1>
-        <p className="portfolioBanner__text mt-5">{text}</p>
-      </div>
-      <div className="portfolioBanner__imageSection">
+    <div className="container portfolioBanner">
+      <h1 className="portfolioBanner__heading">
+        Be part of the next fintech <span> success story.</span>
+        {/* <div className="text-right ">
+          <img src={line} alt="" className="bottom__image" />
+        </div> */}
+      </h1>
+      <p className="portfolioBanner__text mt-5 pt-5">
+        {/* APC strategically invests in fintech firms that deliver best in class
+        financial related services. And to us, investing in fintech starts with
+        investing in people. */}
+      </p>
+
+      {/* <div className="portfolioBanner__imageSection">
         <img className="portfolioBanner__image" src={banner} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 }

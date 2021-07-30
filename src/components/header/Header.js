@@ -1,17 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Header.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/APC-logo.svg";
 import { Link } from "react-router-dom";
 
 function Header() {
-  const [active, setActive] = useState("about");
+  const [actives, setActive] = useState("");
+  // const changeClass = (val) => {
+  //   console.log("inside func", val);
+  //   setActive(val);
+  // };
 
   return (
-    <div className="header ">
-      <nav className="navbar navbar-expand-lg navbar-light   container">
-        <a className="navbar-brand" href="#">
+    <div className="container header pl-0 pr-0">
+      <nav className="navbar navbar-expand-lg navbar-light   ">
+        <Link to="/" className="navbar-brand" href="#">
           <img src={logo} alt="" />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -28,11 +32,12 @@ function Header() {
             <li className="nav-item  mx-4">
               <Link
                 to="/"
-                className="nav-link header__link header__borderBottom"
+                className={
+                  actives === "about"
+                    ? "nav-link header__link header__borderBottom active"
+                    : "nav-link header__link header__borderBottom"
+                }
                 href="#"
-                style={{
-                  borderBottom: active === "about" && "2px solid black",
-                }}
                 onClick={() => setActive("about")}
               >
                 About
@@ -41,31 +46,43 @@ function Header() {
             <li className="nav-item mx-4">
               <Link
                 to="/portfolio"
-                className="nav-link header__link"
+                className={
+                  actives === "portfolio"
+                    ? "nav-link header__link header__borderBottom active"
+                    : "nav-link header__link header__borderBottom"
+                }
                 href="#"
-                style={{
-                  borderBottom: active === "portfolio" && "2px solid black",
-                }}
                 onClick={() => setActive("portfolio")}
               >
                 Portfolio
               </Link>
             </li>
+
             <li className="nav-item mx-4">
               <Link
                 to="/team"
-                className="nav-link header__link"
+                className={
+                  actives === "team"
+                    ? "nav-link header__link header__borderBottom active"
+                    : "nav-link header__link header__borderBottom"
+                }
                 href="#"
                 onClick={() => setActive("team")}
-                style={{
-                  borderBottom: active === "team" && "2px solid black",
-                }}
               >
                 Team
               </Link>
             </li>
             <li className="nav-item mx-4">
-              <a className="nav-link header__link" href="#">
+              <a
+                className={
+                  actives === "jobs"
+                    ? "nav-link header__link header__borderBottom active"
+                    : "nav-link header__link header__borderBottom"
+                }
+                href="https://apc.homerun.co/"
+                onClick={() => setActive("jobs")}
+                target="_blank"
+              >
                 Jobs
               </a>
             </li>

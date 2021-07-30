@@ -1,6 +1,7 @@
 
 .header{
     margin-top: 15px;
+    
 }
 nav .navbar-nav li a{
     color: black !important;
@@ -8,11 +9,18 @@ nav .navbar-nav li a{
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 145%;
+
     /* or 26px */
+    height: 60px;
     
-    display: flex;
-    align-items: center;
+ 
     
     color: #191919;
     }
+    .header__link:hover{
+            border-bottom: 2px solid black;
+    }
+    .active{
+        border-bottom: 2px solid black;
+    }
+  

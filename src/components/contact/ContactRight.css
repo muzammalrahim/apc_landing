@@ -1,9 +1,17 @@
 .contactRight{
-    background-color: #191919;
+    /* background-image: url('../../assets/contact-bg.png'); */
+    background-size: cover;
+    background-position: center;
+    
     width: 100%;
     height: 100vh;
-    padding-top: 25px;
+    padding-top: 5px;
     margin-right: -15px;
+}
+@media screen and (max-width:1550px) {
+    .contactRight{
+        height: 100%;
+    }
 }
 .contactNav .navbar-nav li a{
     color: white !important;
@@ -29,55 +37,88 @@
         font-weight: 300;
         font-size: 50px;
         line-height: 150%;
+        margin-right: 100px;
         /* identical to box height, or 75px */
 
 
         color: #FFFFFF;
-        margin-top:100px
+        margin-top:170px
 
     }
     .contactRight__bottomLine{
         /* margin-left: 50px; */
         margin-top: -50px;
+        margin-right: 100px;
     }
     .contactRight__btn{
-        margin-right: 130px;
-        margin-top: 20px;
+        margin-right: 220px;
+        margin-top: 5px;
+        padding: 10px 45px;
+
     }
     .contactRight__smallHeading{
         font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 145%;
-/* or 26px */
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        /* or 26px */
 
-margin-top:50px;
+        margin-top:50px;
+        margin-right: 100px;
 
-color: rgba(255, 255, 255, 0.8);
+        color: rgba(255, 255, 255, 0.8);
     }
     .contactRight__text{
         font-family: Open Sans;
         font-style: normal;
        
-        font-size: 14px;
-        line-height: 145%;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 25px;
         /* or 26px */
         
-        text-align: justify;
-        margin-left: 144px;
+        
+  
+       
         
         color: rgba(255, 255, 255, 0.8);
     }
     .contactRight__social{
-        margin-right: 250px;
+        margin-right: 340px;
     }
     .contactRight__bottomImage{
-       position: relative;
-       bottom: 350px;
-       left: 76px;
-       width:200px
+       
+       width:260px;
+       margin-left: 490px;
+
+   
     }
     .contactRight__borderBottom{
         border-bottom: 2px solid white;
+    }
+    .contactRight__content{
+        padding-left: 100px;
+    }
+    @media screen and (max-width:1354px) {
+        .contactRight__content{
+            padding-left: 150px;
+        }
+    }
+    @media screen and (max-width:1254px) {
+        .contactRight__content{
+            padding-left: 100px;
+        }
+    }
+
+
+    .ext-bg img.contactRB {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 35%;
+    }
+
+    .contactRight .header__link:hover {
+        border-bottom: 2px solid #fff;
     }

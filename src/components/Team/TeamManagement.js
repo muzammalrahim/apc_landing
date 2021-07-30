@@ -11,6 +11,7 @@ import team5 from "../../assets/team5.png";
 import team6 from "../../assets/team6.png";
 import team7 from "../../assets/team7.png";
 import team8 from "../../assets/team8.png";
+import whiteDesign from "../../assets/meet-image-white.png";
 
 function TeamManagement() {
   const [team, setTeam] = useState("");
@@ -86,6 +87,9 @@ function TeamManagement() {
             />
           </div>
         </div>
+      </div>
+      <div className="team__managementImageContainer">
+        <img src={whiteDesign} alt="" className="team__managementImage" />
       </div>
     </div>
   );
